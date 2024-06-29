@@ -1,0 +1,160 @@
+*{
+  margin: 0;
+  padding: 0; 
+  list-style: none;
+  box-sizing: border-box;
+}
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #1c1e21;
+}
+img{
+  max-width: 100%;
+  height: auto;
+}
+#body-area{
+  background-color: #f0f2f5;
+}
+.container{
+ width: 980px;
+  padding: 20px;
+  margin: 0 auto;
+}
+#Content-area{
+  display: flex;
+  justify-content: space-between;
+  padding-top: 72px 0 112px;
+  align-items: center;
+}
+.left-side{
+  flex-basis: 540px;
+}
+.left-side img{
+  width: 300px;
+  margin-bottom: -15px;
+}
+.left-side h2{
+  color: #1c1e21;
+  font-size: 28px;
+  font-weight: normal;
+  padding-left: 30px;
+}
+.Form-area{
+  flex-basis: 396px;
+  text-align: center;
+  margin-top: 110px;
+}
+.Form-area form{
+  background: #fff;
+  box-shadow: 0 0 10px #ddd;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+}
+.Form-area input{
+  display: block;
+  width: 100%;
+  border: 1px solid #ddd;
+  padding: 14px 10px;
+  font-size: 17px;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+.Form-area input[type='button']{
+    background-color: #0866ff;
+    border: 1px solid #0866ff;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+.Form-area a{
+    color: #0866ff;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 15px;
+    display: inline-block;
+}
+.Form-area a:hover{
+    text-decoration: underline;
+    
+}
+.Form-area button[type='button']{
+    background-color: #42b72a;
+    border: 1px solid #42b72a;
+    color: #fff;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 6px;
+    margin-top: 25px;
+    margin-bottom: 10px;
+}
+.Form-area p{
+color: #1c1e21;
+font-size: 14px;
+margin-top: 20px;
+}
+.Form-area p a{
+color: #1c1e21;
+}
+#footer-area{
+  background-color: #fff;
+  padding: 15px 0;
+}
+#footer-area ul{
+text-align: left;
+margin-bottom: 15px;
+}
+#footer-area ul li{
+display: inline-block;
+margin: 0 6px;
+}
+#footer-area ul li a{
+color: rgb(115, 114, 114);
+font-size: 13px;
+line-height: 20px;
+text-decoration: none;
+}
+#footer-area p{
+color: rgb(115, 114, 114);
+font-size: 13px;
+line-height: 20px;
+text-decoration: none;
+margin-left: 5px;
+margin-top: 15px;
+}
+
+#footer-area ul li a:hover{
+text-decoration: underline;
+}
+
+@media screen and (max-width:520px) {
+  .container{
+  width: 96%;
+}
+#Content-area{
+  flex-direction: column;
+  padding: 35px 0; 
+}
+.left-side{
+   flex-basis: 100%;
+  text-align: center;
+  
+}
+.left-side h2{
+  font-size: 22px;
+  padding-left: 0px;
+  margin-bottom: 40px;
+}
+.Form-area{
+  flex-basis: 100%;
+  text-align: center;
+ 
+}
+}
